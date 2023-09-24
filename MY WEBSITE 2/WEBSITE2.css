@@ -1,0 +1,206 @@
+
+body{
+    background: url(wallpaperflare.com_wallpaper\ \(2\).jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    flex-wrap: wrap;
+    
+    
+}
+
+.wrapper {
+    width: 380px;
+    height: 450px;
+    border: 2px solid #00e1ff;
+    color: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px 40px;
+    backdrop-filter: blur(14px); 
+    transition: 0.5s;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+    transition: 1s;
+    font-family: sans-serif;  
+
+}
+.wrapper .input-box{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px 10px;
+    margin: 10px;
+    transition: 2s;
+
+
+ 
+}
+.wrapper #Forget{
+    color: #00e1ff6e;
+    font-size: 20px;
+    font-weight: 500px;
+    /* border-style: solid;
+    border-radius: 200px;
+    justify-content: center;
+    width: 200px; */    
+}
+.wrapper #Forget:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+}
+a:-webkit-any-link{
+    text-decoration: none;
+    color: white;
+    
+}
+
+div input{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: solid 3px;
+    size: 50px;
+    color: #000000;
+    outline: solid white;
+    font-size: 20px;
+    border: white;
+    border-radius: 20px;
+    
+}
+.input-box input::placeholder{
+    color: #ffffffc4;
+}
+.input-box {
+    size: 100px;
+    display: flex;
+}
+#fa-person{
+    margin: 15px;
+}
+#fa-lock {
+    margin: 15px;
+}
+.btn{
+    font-size: 20px;
+    margin: 10px;
+    font-weight: 500;
+    width: 80%;
+    height: 45px;   
+    border-radius: 50px;
+    outline: 2px solid;
+    cursor: pointer;
+    transition: 0.7s;
+    
+}
+
+.btn:hover{
+    color: #ffffff;
+    background: #21d4f39d;
+    box-shadow: 0 0 10px #07a7cf, 0 0 100px #00f7ff, 0 0 10px #01e1ff ;
+    outline: 3px black solid;
+    font-size: 30px;
+    margin-top: 25px;
+    width: 90%;
+    height: 50px;
+
+}
+*/
+/*.btn span{
+    position: absolute;
+    display: block;
+}
+.btn span:nth-child(1)
+{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(90deg,transparent,#21d4f39d)
+}
+.btn:hover span:nth-child(1)
+{
+    left: 100%;
+    transition: 1s;
+} */
+
+#Register .p{
+    color: #000000;    
+    outline: #000000 sol;
+}
+#regbtn{
+    font-size: x-large;
+    transition: 0.3s;
+
+}
+#regbtn:hover{
+    color: #000000;
+    background: #21d4f39d;
+    box-shadow: 0 0 10px #07a7cf, 0 0 100px #00f7ff, 0 0 10px #01e1ff ;
+    font-size: 30px;
+    text-decoration: none;
+    margin-top: 25px;
+    width: 90%;
+    height: 50px;
+    transition: 0.3s;
+
+}
+#youtube{
+    float: right;
+    color: red;
+    transition: 0.5s;
+
+}
+#twitter{
+    float: left;
+    transition: 0.5s;
+
+}
+#youtube:hover{
+    color: #000000;
+    background: #ff0000;
+    box-shadow: 0 0 10px #ff0000, 0 0 100px #ff0000, 0 0 10px #ff0101 ;
+    font-size: 25px;
+    text-decoration: none;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+
+
+
+    transition: 0.3s;
+
+}
+#twitter:hover{
+    color: #ffffff;
+    background: #21d4f39d;
+    box-shadow: 0 0 10px #07a7cf, 0 0 100px #00f7ff, 0 0 10px #01e1ff ;
+    font-size: 25px;
+    text-decoration: none;
+    height: 40px;
+    padding-top: 7px;
+
+
+
+
+
+    transition: 0.3s;
+
+}
+input:focus{
+    border: #000000 solid;
+}
+input:valid{
+    background-color: rgba(0, 255, 42, 0.541);
+}
